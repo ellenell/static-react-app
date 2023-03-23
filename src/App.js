@@ -1,25 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import Analysis from "./components/Analysis"
+import Navigation from "./components/Navigations";
+import Rating from "./components/Rating";
+import Reviews from "./components/Reviews";
+import Visitors from "./components/Visitors";
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+ return (
+   <div id="background">
+
+      <div id = "nav">
+      <Navigation/>
+      </div>
+
+      <div id = "right">
+
+        <div id = "three">
+            <div id = "reviews">
+              <Reviews/>
+            </div>
+            <div id = "rating">
+              <Rating/>
+            </div>
+            <div id = "analysis">
+              <Analysis/>
+            </div>
+        </div>
+
+        <div id = "visitors">
+        <Visitors/>
+        <div id = "graydiv"></div>
+        </div>
+
+      </div>
+
+   </div>
+ );
 }
 
 export default App;
