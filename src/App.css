@@ -25,4 +25,60 @@
 #nav li {
   display: inline;
 }
+#right {
+  position: relative;
+  padding: 25px;
+  margin: 0px;
+  display: inline-block;
+}
 
+#visitors {
+  background-color: rgb(226, 224, 224);
+  padding: 25px;
+}
+
+
+#graydiv {
+  background-color: rgb(178, 175, 175);
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  padding: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+#three {
+  max-width: fit-content;
+}
+
+
+#analysis ul{
+  list-style-type: none;
+}
+
+#three {
+  display: table;
+  border-spacing: 15px;
+}
+
+#reviews {
+  background-color: rgb(226, 224, 224);
+  padding: 25px;
+  display: table-cell;
+}
+#analysis {
+  background-color: rgb(226, 224, 224);
+  padding: 25px;
+  display: table-cell;
+}
+#analysis ul {
+  text-align: left;
+}
+
+
+#rating {
+  background-color: rgb(226, 224, 224);
+  padding: 25px;
+  display: table-cell;
+}
